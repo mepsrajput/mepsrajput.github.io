@@ -23,12 +23,27 @@
     background-color: #4c4c4c;
     color: #fff;
     clear: both;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 1px 0px 1px 0px;
+	padding: 80px 0px 110px 0px;
 }  
             
 .work {
+    background-color: #ccc;
+	padding: 80px 0px 110px 0px;
+
+}
+
+.contact {
     background-color: #fff;
+	text-align: justify;
+	display: block;
+	margin-top: 50px;
+}
+
+#legend {
+	
+	text-align:center;
+	
 }
 
 /* footer
@@ -37,10 +52,9 @@
     font-size: 20px; 
     font-family: garamond, tahoma, arial;
     background-color: #4c4c4c;
-    color: #f6f6f6;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
 }
 .navbar1 {
     
