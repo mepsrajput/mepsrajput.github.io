@@ -64,7 +64,7 @@
 						<ul class="nav navbar-nav navbar-left">
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="active" href="#" style="color: white">About</a></li>
+							<li><a class="active" href="#about" style="color: white">About</a></li>
 							<li><a href="#skill" style="color: white">Skills</a></li>
 							<li><a href="#project" style="color: white">Personal Projects</a></li>
 							<li><a href="#contact" style="color: white">Contact</a></li>
@@ -151,7 +151,7 @@
 								<br/><br/><br/>
 								</div>
 								<div class="col-lg-6 col-sm-6 text-center">
-									<a href="https://mepsrajput.github.io/ImageGallery/"><img src="imgl.png" alt="imagegallery" width="90%"></img></a>
+									<a href="https://mepsrajput.github.io/ImageGallery/"><img src="tribute.png" alt="imagegallery" width="90%"></img></a>
 								<br/><br/>
 								</div>
 							</div><br/>
@@ -256,6 +256,32 @@
     = cosParameter + cosParameter * (cos bx)    | b stretches along the x axis = scrollCount = Math.PI / (scrollDuration / (newTimestamp - oldTimestamp))
     = cosParameter + cosParameter * (cos scrollCount * x)
 */
+
+$(document).ready(function(){
+  
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+ 
+  $("#navbarcol a").on('click', function(event) {
+     
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      
+      var hash = this.hash;
+
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+     
+        window.location.hash = hash;
+      });
+    }  
+  });
+   
+});
 
         </script>
 
