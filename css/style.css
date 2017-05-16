@@ -40,12 +40,6 @@
 .top {
 	background-color: #4c4c4c;
 }
-
-button:active, button:active {
-	text-decoration:none;
-	color: blue;
-	background-color: red;
-}
 	
 /* Font Awesome Footer Icons
 --------------------------------------------------------------------------------------------------------------- */
@@ -108,3 +102,6 @@ button:active, button:active {
 .fan a:visited{
 	text-decoration: none;
 }
+
+/* End OF footer
+--------------------------------------------------------------------------------------------------------------- */
