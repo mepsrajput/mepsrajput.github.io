@@ -4,7 +4,7 @@
 
 #about {
     background-color: #f3f3f3;
-	padding: 120px 0px 60px 0px;
+	padding: 120px 0px 35px 0px;
 }
 
 
@@ -12,7 +12,7 @@
 #skill {
 	
     background-color: #ccc;
-	padding: 50px 0px 110px 0px;
+	padding: 150px 0px 190px 0px;
 
 }
 
@@ -26,27 +26,25 @@
 #contact {
 	
     background-color: #ccc;
-	padding: 50px 0px 110px 0px;
+	padding: 150px 0px 190px 0px;
 
 }
 /* footer
 --------------------------------------------------------------------------------------------------------------- */
 #social {
-    background-color: #7d7d7d;
+    background-color: #191919;
 	text-align: center;
-	padding: 50px 0px 80px 0px;
+	padding: 35px 0px 38px 0px;
 	color: white;
 }
 .top {
-	background-color: #7d7d7d;
+	background-color: #4c4c4c;
 }
 
-.left {
-	margin-left: 30px;
-}
-
-.profile {
-	margin-left: 20px;
+button:active, button:active {
+	text-decoration:none;
+	color: blue;
+	background-color: red;
 }
 	
 /* Font Awesome Footer Icons
