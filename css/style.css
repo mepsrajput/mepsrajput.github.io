@@ -50,6 +50,7 @@ div.opa {
     opacity: 0.9;
     /* Full height */
     height: 100%; 
+	width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed !important;
@@ -97,7 +98,7 @@ img.rotate:hover
 
 @media screen and (max-width: 480px) {
     div.ss {
-		padding: auto;
+		padding: 10px 0px 10px opx;
 		width: 100%;
        
     }
