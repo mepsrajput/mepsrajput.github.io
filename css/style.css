@@ -92,6 +92,14 @@ img.rotate:hover
 
 }
 
+
+@media screen and (min-width: 480px) {
+    div.prowid {
+        margin: 20px 150px 0px 150px;
+    }
+}
+
+
 #skill {
 	
     background-color: #ccc;
