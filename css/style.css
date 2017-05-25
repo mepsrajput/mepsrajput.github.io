@@ -1,19 +1,75 @@
 
 
-/* margin & padding for sub-wrappers
---------------------------------------------------------------------------------------------------------------- */
-
-div#about {
-    background-color: #f3f3f3;
-	padding: 120px 0px 35px 0px;
-	margin-top: 50px;
-    background-image: url("code.jpg");
-    text-align: center;
+body, html {
+    height: 100%;
 }
 
 
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    box-shadow: 0 4px 3px rgba(255,255,255,0.4),
+                 0 8px 13px rgba(255,255,255,0.1),
+                 0 18px 23px rgba(255,255,255,0.1);
+}
 
-		.rotate{
+/* margin & padding for sub-wrappers
+--------------------------------------------------------------------------------------------------------------- */
+::-webkit-scrollbar
+{
+  width: 11px;  /* for vertical scrollbars */
+  height: 11px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(166, 158, 176, 0.5);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+#about {
+	padding: 120px 0px 35px 0px;
+	margin-top: 50px;
+	background-image: url('../code.jpg.jpg');
+	background-color: #f3f3f3;
+	height: 100%; 
+    text-align: center;
+
+}
+
+.label {
+	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+div.opa {
+	
+		opacity: none;
+}
+
+
+.parallax { 
+    opacity: 0.9;
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+	img.rotate{
 		
 -webkit-transition-duration: 0.4s;
 -moz-transition-duration: 0.4s;
@@ -26,12 +82,12 @@ transition-duration: 0.4s;
 transition-property: transform;
 
 overflow:hidden;
-    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 10px 3px rgba(255, 255, 255, 0.5);
 
 
 }
 
-.rotate:hover
+img.rotate:hover
 {
 -webkit-transform:rotate(1deg);
 -moz-transform:rotate(1deg);
@@ -43,7 +99,7 @@ overflow:hidden;
 #skill {
 	
     background-color: #ccc;
-	padding: 150px 0px 190px 0px;
+	padding: 120px 0px 138px 0px;
 
 }
 
@@ -58,6 +114,9 @@ overflow:hidden;
 	
     background-color: #ccc;
 	padding: 150px 0px 190px 0px;
+	background-image: url('../basti-steiner-266387.jpg');
+	color: white;
+	opacity: 1;
 
 }
 
