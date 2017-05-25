@@ -3,12 +3,42 @@
 /* margin & padding for sub-wrappers
 --------------------------------------------------------------------------------------------------------------- */
 
-#about {
+div#about {
     background-color: #f3f3f3;
 	padding: 120px 0px 35px 0px;
+	margin-top: 50px;
+    background-image: url("code.jpg");
+    text-align: center;
 }
 
 
+
+		.rotate{
+		
+-webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+transition-duration: 0.4s;
+
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+
+overflow:hidden;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.rotate:hover
+{
+-webkit-transform:rotate(1deg);
+-moz-transform:rotate(1deg);
+-o-transform:rotate(1deg);
+
+
+}
 
 #skill {
 	
