@@ -33,7 +33,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 #about {
 	background-image: url('../code.jpg.jpg');
 	background-color: #f3f3f3;
-	height: 100%; 
+	height: 100%; width: 100%; 
     text-align: center;
 	padding-top: 100px;
 
