@@ -35,8 +35,8 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 	background-color: #f3f3f3;
 	height: 100%; width: 100%; 
     text-align: center;
-	padding-top: 150px;
-
+	padding: 120px 0px 35px 0px;
+	margin-top: 50px;
 }
 
 .label {
@@ -98,10 +98,11 @@ img.rotate:hover
     }
 }
 
-@media screen and (min-width: 480px) {
-    div.row #about {
-        padding: 120px 0px 35px 0px;
-		margin-top: 50px;
+@media screen and (max-width: 480px) {
+    div.row #ss {
+		padding: 0 auto;
+		margin: 0 auto;
+       
     }
 }
 
