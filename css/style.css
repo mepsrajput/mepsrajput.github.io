@@ -31,12 +31,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 
 
 #about {
-	padding: 120px 0px 35px 0px;
-	margin-top: 50px;
 	background-image: url('../code.jpg.jpg');
 	background-color: #f3f3f3;
 	height: 100%; 
     text-align: center;
+	padding-top: 100px;
 
 }
 
@@ -99,10 +98,10 @@ img.rotate:hover
     }
 }
 
-@media screen and (max-width: 480px) {
-    div#about {
-        margin: 0;
-		padding: 0;
+@media screen and (min-width: 480px) {
+    div.row #about {
+        padding: 120px 0px 35px 0px;
+		margin-top: 50px;
     }
 }
 
