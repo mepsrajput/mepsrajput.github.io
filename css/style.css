@@ -100,8 +100,8 @@ img.rotate:hover
 
 @media screen and (max-width: 480px) {
     div.ss {
-		padding: 5px auto;
-		margin: 0px 0px 0px 0px;
+		padding: auto;
+		margin-right: 0px;
 		width: 100%;
        
     }
