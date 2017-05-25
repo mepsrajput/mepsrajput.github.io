@@ -102,6 +102,7 @@ img.rotate:hover
     div.ss {
 		padding: 5px auto;
 		margin: 0px 0px 0px 0px;
+		width: 100%;
        
     }
 }
