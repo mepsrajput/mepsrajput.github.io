@@ -62,11 +62,7 @@ div.opa {
     background-size: cover !important;
 }
 
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 
 	img.rotate{
