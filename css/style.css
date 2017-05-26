@@ -133,6 +133,11 @@ div.thumbnail {
 			height: 270px;
 			margin: auto;
 			overflow: hidden;
+			
+			@media screen and (max-width: 420px){
+				width: 150px;
+			}
+
 }
 
 div.thumbnail:hover {
