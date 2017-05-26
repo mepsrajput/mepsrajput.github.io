@@ -120,6 +120,31 @@ img.rotate:hover
 
 }
 
+div.thumbnail {
+	
+	background-size: cover;
+			cursor: pointer;
+			box-shadow: 0 5px 10px rgba(0,0,0,.8);
+			&:hover {
+			box-shadow: 0 15px 20px rgba(0,0,0,.4);
+			}
+			vertical-align: top;
+			width: 470px;
+			height: 270px;
+			margin: auto;
+			overflow: hidden;
+}
+
+div.thumbnail:hover {
+		-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+
+	}
+
 #contact {
 	
     background-color: #ccc;
