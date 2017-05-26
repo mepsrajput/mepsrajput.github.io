@@ -141,6 +141,11 @@ img.rotate:hover
 .top {
 	background-color: #4c4c4c;
 }
+
+button {
+    outline-style: none;
+}
+
 	
 /* Font Awesome Footer Icons
 --------------------------------------------------------------------------------------------------------------- */
