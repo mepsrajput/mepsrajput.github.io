@@ -143,9 +143,9 @@ div.thumbnail {
 		}
     }
 	
-	
-
-div.thumbnail:hover {
+	@media screen and (min-width: 780px) {
+		
+		div.thumbnail:hover {
 		-moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -154,6 +154,8 @@ div.thumbnail:hover {
   transition: all 0.4s;
 
 	}
+	}
+
 
 #contact {
 	
