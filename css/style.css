@@ -134,22 +134,22 @@ div.thumbnail {
 
 }
 
-	@media screen and (max-width: 779px) {
+	@media screen and (min-width: 481px) and (max-width: 779px) {
 		div.thumbnail{
-		vertical-align: top;
 		
-		box-shadow: 0 10px 25px rgba(0,0,0,.7);
-		outline: 2px solid #2a2a2a;
+		
 		}
     }
 	
-	@media screen and (max-width: 779px) {
+	@media screen and (max-width: 480px) {
 		div.thumbnail:hover{
 			-moz-transform: none;
 			-webkit-transform: none;
 			transform: none;
+			box-shadow: 0 10px 25px rgba(0,0,0,.7);
+
 	}}
-	@media screen and (min-width: 500px) {
+	@media screen and (min-width: 480px) {
 		
 		div.thumbnail:hover {
 		-moz-transform: scale(1.1);
@@ -158,6 +158,9 @@ div.thumbnail {
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  
+  box-shadow: 0 10px 25px rgba(0,0,0,.7);
+		outline: 2px solid #2a2a2a;
 
 	}
 	}
