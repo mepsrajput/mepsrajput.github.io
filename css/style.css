@@ -143,7 +143,7 @@ div.thumbnail {
 		}
     }
 	
-	@media screen and (min-width: 780px) {
+	@media screen and (min-width: 480px) {
 		
 		div.thumbnail:hover {
 		-moz-transform: scale(1.1);
