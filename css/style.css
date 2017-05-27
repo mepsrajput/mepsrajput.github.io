@@ -143,6 +143,12 @@ div.thumbnail {
 		}
     }
 	
+	@media screen and (max-width: 779px) {
+		div.thumbnail:hover{
+			-moz-transform: none;
+			-webkit-transform: none;
+			transform: none;
+	}}
 	@media screen and (min-width: 500px) {
 		
 		div.thumbnail:hover {
