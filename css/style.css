@@ -201,7 +201,6 @@ button {
 
 @media screen and (max-width: 480px) {
 		div#go-top{
-			margin-bottom: 550px;
 			position: absolute;
 	top: -105px;
    left: 50%;
