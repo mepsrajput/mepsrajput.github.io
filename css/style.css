@@ -36,12 +36,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 	padding: 120px 0px 125px 0px;
 }
 
-@media screen and (max-width: 480px) {
-		
-		#aboutme {
-			color: black;
-		}
-}
 
 .label {
 	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
