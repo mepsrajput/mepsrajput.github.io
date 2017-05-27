@@ -36,7 +36,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 	padding: 120px 0px 125px 0px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 		
 		#aboutme {
 			color: black;
