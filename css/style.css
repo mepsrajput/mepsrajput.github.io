@@ -33,9 +33,16 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 #about {
 	background-image: url('../code.jpg.jpg');
 	background-color: #f3f3f3;
-	padding: 120px 0px 35px 0px;
+	padding: 120px 0px 125px 0px;
 }
 
+aboutme{
+	
+		-webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
 .label {
 	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
@@ -148,6 +155,7 @@ div.thumbnail {
 			box-shadow: 0 10px 25px rgba(0,0,0,.7);
 
 	}}
+	
 	@media screen and (min-width: 480px) {
 		
 		div.thumbnail:hover {
@@ -157,9 +165,6 @@ div.thumbnail {
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  
-
-
 	}
 	}
 
@@ -182,6 +187,10 @@ div.thumbnail {
 	padding: 35px 0px 38px 0px;
 	color: white;
 }
+
+.smoothscroll{
+	margin-top: 7px;
+}
 .top {
 	background-color: #4c4c4c;
 }
@@ -190,6 +199,33 @@ button {
     outline-style: none;
 }
 
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -25px;
+   left: 50%;
+   margin-left: -30px;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #b2b2b2;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #000;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+#go-top a:hover { background-color: #99cc99; opacity: 0.8 }
 	
 /* Font Awesome Footer Icons
 --------------------------------------------------------------------------------------------------------------- */
