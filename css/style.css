@@ -193,7 +193,7 @@ button {
     outline-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 		div#go-top{
 			position: absolute;
 	top: -105px;
