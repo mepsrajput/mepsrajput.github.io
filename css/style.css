@@ -41,14 +41,9 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
-div.opa {
-	
-		opacity: none;
-}
 
 
 .parallax { 
-    opacity: 0.9;
     /* Full height */
     height: 100%; 
 
