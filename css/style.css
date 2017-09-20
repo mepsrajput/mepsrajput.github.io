@@ -369,8 +369,11 @@ div.formStyle {
 	div.formStyle {
 		width: 90vw;
 		margin : 0 auto;
-
 	}
+	span#about-me {
+	width: 95vw;
+}
+
 }
 @media screen and (min-width: 500px) and (max-width : 800px) 
 {
