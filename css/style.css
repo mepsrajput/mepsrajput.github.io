@@ -372,6 +372,9 @@ div.formStyle {
 	}
 	span#about-me {
 	width: 95vw;
+	margin: 0 auto;
+	font-size: 5px;
+	}
 }
 
 }
