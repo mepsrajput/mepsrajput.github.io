@@ -85,23 +85,6 @@ img.rotate:hover
 }
 
 
-@media screen and (min-width: 480px) {
-    div.prowid {
-        margin: 20px 150px 0px 150px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    div.ss {
-		padding: 5px 0px 20px 0px;
-		
-    }
-	img.rotate {
-		margin : 0px auto;
-	}
-}
-
-
 #skill {
 	
     background-color: #ccc;
@@ -364,6 +347,37 @@ div.formStyle {
     background-color: #000;
     padding: 20px 30px ;
 	width: 600px;
-	margin: auto auto;
+	margin: 0 auto;
 	opacity: 0.9;
+}
+
+
+@media screen and (min-width: 480px) {
+    div.prowid {
+        margin: 20px 150px 0px 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.ss {
+		padding: 5px 0px 20px 0px;
+		
+    }
+	img.rotate {
+		margin : 0 auto;
+	}
+	div.formStyle {
+		width: 280px;
+		margin : 0 auto;
+
+	}
+}
+@media screen and (min-width: 500px) and (max-width : 800px) 
+{
+div.formStyle {
+		width: 420px;
+		margin : 0 auto;
+
+	}
+
 }
