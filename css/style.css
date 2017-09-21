@@ -99,6 +99,11 @@ img.rotate:hover
 
 }
 
+#more{
+	font-size:18px;
+	padding: 5px;
+}
+
 div.thumbnail {
 	
 	background-size: cover;
