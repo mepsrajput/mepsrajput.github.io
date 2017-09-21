@@ -33,9 +33,23 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 #about {
 	background-image: url('../code1.jpg');
 	background-color: #f3f3f3;
-	padding: 120px 0px 125px 0px;
+	padding: 120px 0px 195px 0px;
 }
 
+div.container1{ 
+	width: 30vw; 
+	margin : 15px auto; 
+	border: 1px solid gray; 
+	opacity: 0.9; 
+	padding: 5px; 
+	font-size: 18px; 
+	color: #ccc;
+	background-color:black;
+	}
+
+	div.container2{ 
+	margin : 35px auto; 
+	}
 
 .label {
 	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
@@ -380,15 +394,25 @@ div.formStyle {
 	margin: 0 auto;
 	font-size: 5px;
 	}
+	div.container1{
+	font-size:14px;
+	width: 65vw;
+	padding:10px;
+	}
 }
 
-}
-@media screen and (min-width: 500px) and (max-width : 800px) 
+@media screen and (min-width: 500px) and (max-width : 900px) 
 {
-div.formStyle {
+	div.formStyle {
 		width: 60vw;
 		margin : 0 auto;
 
+	}
+	
+	div.container1{
+	font-size:12px;
+	width: 85vw;
+	padding:10px;
 	}
 
 }
