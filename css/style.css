@@ -11,7 +11,28 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
                 0 18px 23px rgba(255,255,255,0.1);
 }
 
-/* margin & padding for sub-wrappers
+
+.label {
+	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+button {
+    outline-style: none;
+}
+
+.parallax { 
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+/* Side Scrollbar Design
 --------------------------------------------------------------------------------------------------------------- */
 ::-webkit-scrollbar
 {
@@ -30,49 +51,27 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 }
 
 
+/* About Section
+--------------------------------------------------------------------------------------------------------------- */
 #about {
-	background-image: url('../code1.jpg');
+	background-image: url('../img/code1.jpg');
 	background-color: #f3f3f3;
 	padding: 120px 0px 125px 0px;
 }
 
+img.rotate{
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 
-.label {
-	    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
-}
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
 
-
-
-.parallax { 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-}
-
-
-
-
-	img.rotate{
-		
--webkit-transition-duration: 0.4s;
--moz-transition-duration: 0.4s;
--o-transition-duration: 0.4s;
-transition-duration: 0.4s;
-
--webkit-transition-property: -webkit-transform;
--moz-transition-property: -moz-transform;
--o-transition-property: -o-transform;
-transition-property: transform;
-
-overflow:hidden;
+	overflow:hidden;
     box-shadow: 3px 3px 10px 3px rgba(255, 255, 255, 0.5);
-
-
 }
 
 img.rotate:hover
@@ -80,18 +79,19 @@ img.rotate:hover
 -webkit-transform:rotate(1deg);
 -moz-transform:rotate(1deg);
 -o-transform:rotate(1deg);
-
-
 }
 
 
-#skill {
-	
+/* Skill Section
+--------------------------------------------------------------------------------------------------------------- */
+#skill {	
     background-color: #ccc;
 	padding: 125px 0px 172px 0px;
-
 }
 
+
+/* Project Section
+--------------------------------------------------------------------------------------------------------------- */
 #project {
 	
     background-color: #f3f3f3;
@@ -112,46 +112,17 @@ div.thumbnail {
 			overflow: hidden;
 }
 
-	@media screen and (min-width: 481px) and (max-width: 779px) {
-		div.thumbnail{
-			
-
-		}
-    }
-	
-	@media screen and (max-width: 480px) {
-		div.thumbnail:hover{
-			-moz-transform: none;
-			-webkit-transform: none;
-			transform: none;
-			box-shadow: 0 10px 25px rgba(0,0,0,.7);
-
-	}}
-	
-	@media screen and (min-width: 480px) {
-		
-		div.thumbnail:hover {
-		-moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-	}
-	}
-
-
+/* Contact Section
+--------------------------------------------------------------------------------------------------------------- */
 #contact {
-	
     background-color: #ccc;
 	padding: 90px 0px 190px 0px;
-	background-image: url('../basti-steiner-2.jpg');
+	background-image: url('../img/basti-steiner-2.jpg');
 	color: black;
 	opacity: 1;
-
 }
 
-/* footer
+/* Footer Section
 --------------------------------------------------------------------------------------------------------------- */
 #social {
     background-color: #191919;
@@ -167,9 +138,7 @@ div.thumbnail {
 	background-color: #4c4c4c;
 }
 
-button {
-    outline-style: none;
-}
+
 
 @media screen and (max-width: 800px) {
 		div#go-top{
@@ -352,26 +321,49 @@ div.formStyle {
 }
 
 
-@media screen and (min-width: 480px) {
-    div.prowid {
-        margin: 20px 150px 0px 150px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    div.ss {
+/* Mobile Devices Customization Section
+--------------------------------------------------------------------------------------------------------------- */
+	
+@media screen and (max-width: 480px) {
+	div.thumbnail:hover{
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		box-shadow: 0 10px 25px rgba(0,0,0,.7);
+	}
+	
+	div.ss {
 		padding: 5px 0px 20px 0px;
 		
     }
+	
 	img.rotate {
 		margin : 0 auto;
 	}
+	
 	div.formStyle {
 		width: 95%;
 		margin : 0 auto;
 
 	}
 }
+	
+@media screen and (min-width: 480px) {
+	
+	div.thumbnail:hover {
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+	}
+	
+	div.prowid {
+        margin: 20px 150px 0px 150px;
+    }
+}
+
 @media screen and (min-width: 500px) and (max-width : 800px) 
 {
 div.formStyle {
