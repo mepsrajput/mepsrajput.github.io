@@ -131,29 +131,17 @@ div.thumbnail {
 	color: white;
 }
 
-.smoothscroll{
-	margin-top: 7px;
-}
-.top {
-	background-color: #4c4c4c;
-}
-
-
 
 @media screen and (max-width: 800px) {
 		div#go-top{
-			position: absolute;
-	top: -105px;
-   left: 50%;
-   margin-left: -30px;
+			position: relative;
+			margin:0 auto !important;
 		}
 }
 /* Go To Top Button */
 #go-top {
-	position: absolute;
-	top: -25px;
-   left: 50%;
-   margin-left: -30px;
+	width:50px;
+	margin: 0 auto !important;
 }
 #go-top a {
 	text-decoration: none;
@@ -162,6 +150,7 @@ div.thumbnail {
 	width: 50px;
 	height: 50px;
 	background-color: #b2b2b2;
+	opacity:0.6;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -174,7 +163,7 @@ div.thumbnail {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #99cc99; opacity: 0.8 }
+#go-top a:hover { opacity: 0.8 }
 	
 /* Font Awesome Footer Icons
 --------------------------------------------------------------------------------------------------------------- */
@@ -341,7 +330,7 @@ div.formStyle {
 	}
 	
 	div#myDIV{
-		border-radius: 2px 25px!important;
+		border-radius: 2px 20px!important;
 		padding: 5px !important;
 	}
 	
@@ -375,7 +364,9 @@ div.formStyle {
 	div.formStyle {
 		width: 95%;
 		margin : 0 auto;
-
+	}
+	#go-top {
+		padding-top: 30px !important;
 	}
 }
 	
