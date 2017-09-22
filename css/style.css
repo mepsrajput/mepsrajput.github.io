@@ -329,8 +329,24 @@ div.formStyle {
 	#about, #skill{
 		padding: 0px auto 8px auto !important;
 	}
+	div.intro-mobile{
+		margin: 18px auto 0px auto !important;
+	}
+	span#intro{
+		font-size:14px !important;
+	}
+	
 	div.content{
 		margin: 0px auto !important;
+	}
+	
+	div#myDIV{
+		border-radius: 2px 25px!important;
+		padding: 5px !important;
+	}
+	
+	span#more{
+		font-size:13px !important;
 	}
 	h1{
 		margin-top:15px !important;
