@@ -56,7 +56,7 @@ button {
 #about {
 	background-image: url('../img/code1.jpg');
 	background-color: #f3f3f3;
-	padding: 120px 0px 125px 0px;
+	padding: 120px 0px 185px 0px;
 }
 
 img.rotate{
@@ -334,9 +334,13 @@ div.formStyle {
 		padding: 5px !important;
 	}
 	
-	span#more{
-		font-size:13px !important;
+	button.moreT{
+		font-size:12px !important;
 	}
+	span#more{
+		font-size:12px !important;
+	}
+	
 	h1{
 		margin-top:15px !important;
 		font-size: 25px !important;
