@@ -151,7 +151,7 @@ div.thumbnail {
 	height: 50px;
 	background-color: #ffd2e8;
 	opacity:0.6;
-	border: none;
+	border: 1px solid #000;
 
 
 	-webkit-transition: all 0.2s ease-in-out;
@@ -165,7 +165,7 @@ div.thumbnail {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { opacity: 0.8; border:1px solid #000; }
+#go-top a:hover { opacity: 0.8; border:none; }
 #letsSocial{font-family: 'Lobster', cursive; font-size: 30px}	
 
 /* Font Awesome Footer Icons
