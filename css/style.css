@@ -233,8 +233,12 @@ div .fan .fa-linkedin:hover {
 }
 
 div .fan .fa-instagram:hover {
-  background: #125688;
-  color: white;
+    background: -webkit-linear-gradient(#4c68d7,#8a3ab9,#fbad50); /* Safari 5.1-6.0 */
+    background: -o-linear-gradient(#4c68d7,#8a3ab9,#fbad50); /* Opera 11.1-12.0 */ 
+    background: -moz-linear-gradient(#4c68d7,#8a3ab9,#fbad50); /* Firefox 3.6-15 */
+    background: linear-gradient(#4c68d7,#8a3ab9,#fbad50); /* Standard syntax */
+	
+	color: white;
 }
 
 
