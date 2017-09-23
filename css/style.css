@@ -379,6 +379,9 @@ div.formStyle {
 	#go-top {
 		padding-top: 30px !important;
 	}
+	div.fan{
+	margin-top: 18px !important;
+}
 }
 	
 @media screen and (min-width: 480px) {
@@ -397,12 +400,14 @@ div.formStyle {
     }
 }
 
-@media screen and (min-width: 500px) and (max-width : 800px) 
+@media screen and (min-width: 480px) and (max-width : 850px) 
 {
 div.formStyle {
 		width: 420px;
 		margin : 0 auto;
 
 	}
-
+div.fan{
+	margin-top: 18px !important;
+}
 }
