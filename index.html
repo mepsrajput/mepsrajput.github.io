@@ -203,23 +203,25 @@
 							
 							<div class="formStyle text-left">
 								
-								<form action="https://formspree.io/viveksingh12126@gmail.com"
+								<form onsubmit="return validateForm()" action="https://formspree.io/viveksingh12126@gmail.com"
 								method="POST">
     
 								<label for="fname" style="color:#ccc">Full Name</label>
-								<input type="text" id="fname" name="fullname" placeholder="Your name ...">
+								<input type="text" id="fname" name="fullname" placeholder="Your name ..." >
 								<label for="lname" style="color:#ccc">Email ID</label>
-								<input type="email" id="email" name="Email ID" placeholder="Your Email ID ...">
+								<input type="email" id="email" name="Email ID" placeholder="Your Email ID ..." >
 								<label for="country" style="color:#ccc">Country</label>
-								<select id="country" name="country">
+								<select id="country" name="country">  									<option value="" disabled>Select</option>
 									<option value="australia">Australia</option>
 									<option value="canada">Canada</option>
-									<option value="usa">USA</option>
-									<option value="usa">India</option>
+									<option value="USA">USA</option>
+									<option value="India">India</option>
+									<option value="Other">Other</option>
+
 								</select>
 								<label id="message" for="message" style="color:#ccc">Message</label>
 								
-								<textarea type="text" id="message" name="message" placeholder="Your message ..."></textarea>
+								<textarea type="text" id="message" name="message" placeholder="Your message ..." minlength="15" maxlength="150" ></textarea>
 
 								<input id="designSubmit" type="submit" value="Submit" name = "submit">
 							
@@ -331,6 +333,32 @@ $(document).ready(function(){
 						} else {
 							x.style.display = 'none';
 				}
+}
+
+//form validation script
+
+function validateForm() {
+
+   var x = document.forms["myForm"]["fname"].value;
+   var y = document.forms["myForm"]["email"].value;
+   var t = document.forms["myForm"]["message"].value;
+   	if (x == "" || x.length <= 2 || x.length >= 20) {
+        alert("Your Name must be 3 to 20 characters");
+        return false;
+    } else if (y == "" || y.length <= 5) {
+     	alert("Invalid Email");
+        return false;
+   	} else if(t == "" || t.length <= 17 || t.length >= 150) {
+    	alert("Your message length should be 15 to 150 characters");
+       	return false;
+    } else if {
+    	if ( document.getElementsByName('country')[0].value == 'blank' )
+    alert('Select something !');
+       	return false;
+    }else {
+    	return true;
+    }
+       
 }
 
 
