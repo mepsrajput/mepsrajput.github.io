@@ -414,7 +414,7 @@ span#copy {
         background-attachment: scroll;
     }
 	div#content {
-	margin-top: 100px;
+	margin-top: 80px;
 	}
 	div#intro {
 		font-size: 1.2em;
@@ -431,6 +431,10 @@ span#copy {
 
 	div#skills h1{
 		margin: 110px auto 60px;
+	}
+
+	hr#lineStyle1 {
+	margin-bottom: 38px;
 	}
 
 	i.bootIcon {
@@ -461,7 +465,9 @@ span#copy {
 	p#js{
 		margin-top: -20px;
 	}
-
+	p#html, p#css, p#js, p#b {
+		font-size: 15px;
+	}
 	div#projects hr {
 		margin: 10px auto 20px;
 	}
