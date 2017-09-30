@@ -41,7 +41,7 @@ nav.navbar {
 	box-shadow: 0px 2px 5px gray;
 }
 
-#navGlyphicon {
+.navGlyphicon {
 	color: #ccccff
 }
 
@@ -86,7 +86,7 @@ div#intro a:hover {
 	color: blue;
 }
 
-span#blueColor {
+span.blueColor {
 	color: blue;
 }
 
