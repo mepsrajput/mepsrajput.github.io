@@ -340,7 +340,6 @@ span#copy {
 
 .fa-heart-o {
 	color: #FF69B4;
-	font-size: 100px;
 }
 
 .iconf {
@@ -421,7 +420,7 @@ span#copy {
 		background-color: #eee;
 	}
 	#img1 {
-		width: 200px;
+		width: 180px;
 		margin-bottom: 15px; 
 	}
 
