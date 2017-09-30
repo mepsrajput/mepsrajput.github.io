@@ -407,7 +407,8 @@ span#copy {
 
 
 
-/*Mobile Optimization*/
+/*Mobile Optimization -------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 768px){
 	.parallax {
         background-attachment: scroll;
@@ -461,6 +462,9 @@ span#copy {
 		margin-top: -20px;
 	}
 
+	div#projects hr {
+		margin: 10px auto 20px;
+	}
 	img.projectStyle {
 		width: 40vh;
 		margin: 10px auto;
@@ -469,15 +473,26 @@ span#copy {
 	div.hideElement {
 		display: none;
 	}
-
+	
+	div#contact h1 {
+		margin-bottom: 0;
+	}
+	div#contact hr {
+		margin: 10px auto 20px;
+	}
 	div#formStyle {
 	width: 85vw;
-	height: 50%;
+	height: 44%;
 	}
 
 	input[type=text], input[type=email], select {
     padding: 6px 12px;
 	}
+	input[type=submit] {
+		padding: 4px 1px;
+		width: 33%;
+	}
+
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px){
