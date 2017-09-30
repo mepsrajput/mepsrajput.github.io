@@ -45,7 +45,7 @@ nav.navbar {
 	color: #ccccff
 }
 
-#h1Text{
+.h1Text{
 	font-size: 60px;
 }
 /* ---------  start of navbar ------------------------------------------------
@@ -425,7 +425,7 @@ span#copy {
 		margin-bottom: 15px; 
 	}
 
-	#h1Text{
+	.h1Text{
 	font-size: 30px;
 	}
 
