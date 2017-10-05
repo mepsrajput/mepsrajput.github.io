@@ -60,8 +60,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			gtag('js', new Date());
 
 			gtag('config', 'UA-107436040-1');
-		</script>			
-          
+		</script>	
+		
+          <script src="script.js"></script>
+
         
     </head>
     
@@ -108,38 +110,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</nav><!-- Navbar End -->		
 
 		<!-- start of about-section -->		
-		<div class="container-fluid parallax noselect" id="about">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div id="content">
-						<img id="img1"  
-							class="img-responsive img-circle center-block" 
-							alt="Pradeep Singh" 
-							src="img/image1.jpg">
-						</img>
+		<div class="aboutContainer parallax noselect" id="about">
+			<div class="aboutOverlay"></div>
+			<div class="container-fluid insideContainer">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div id="content">
+							<img id="img1"  class="img-responsive img-circle center-block" alt="Pradeep Singh" 
+								src="img/image1.jpg">
+							</img>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12 text-center">
-					<div id="intro">My name is <span class="blueColor">Pradeep Singh</span>. I am a Front-End 
-						<span class="blueColor">Web Developer</span> with a <span id="blueColor">B.E</span>. Degree in <span class="blueColor">Computer Science</span>. Apart from this I'm a<span 
-						class="blueColor">
-						<a href="http://www.eduonline24.in/">Blogger</a></span> as well. Web Development has been my passion from these many years.
+				<div class="row">
+					<div class="col-md-12 col-sm-12 text-center">
+						<div id="intro">My name is <span class="blueColor">Pradeep Singh</span>. I am a Front-End 
+							<span class="blueColor">Web Developer</span> with a <span id="blueColor">B.E</span>. 
+							Degree in <span class="blueColor">Computer Science</span>. Apart from this I'm a
+							<span class="blueColor"> <a href="http://www.eduonline24.in/">Blogger</a></span> as well. 
+							Web Development has been my passion from these many years.
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row social text-center">
+				<div class="row social text-center">
 				<div class="col-md-12 col-xs-12">
-						<!-- Add font awesome icons -->
-						<a href="https://www.facebook.com/psrajputofficial/" class="fa fa-facebook iconf"></a>
-						<a href="https://twitter.com/mepsrajput" class="fa fa-twitter iconf"></a>
-						<a href="https://plus.google.com/+PradeepSinghRajputOfficial/" 
-							class="fa fa-google-plus iconf"></a>
-						<a href="https://www.linkedin.com/in/mepsrajput/" class="fa fa-linkedin iconf"></a>
-						<a href="https://www.instagram.com/psrofficial/" class="fa fa-instagram iconf"></a>
+					<!-- Add font awesome icons -->
+					<a href="https://www.facebook.com/psrajputofficial/" target="_blank" class="fa fa-facebook iconf"></a>
+					<a href="https://twitter.com/mepsrajput" target="_blank" class="fa fa-twitter iconf"></a>
+					<a href="https://plus.google.com/+PradeepSinghRajputOfficial/" target="_blank"
+						class="fa fa-google-plus iconf">
+					</a>
+					<a href="https://www.linkedin.com/in/mepsrajput/" target="_blank" class="fa fa-linkedin iconf"></a>
+					<a href="https://www.instagram.com/psrofficial/" target="_blank" class="fa fa-instagram iconf"></a>
 				</div>
 			</div>
+		</div>
+		
+			
+		</div>
 		</div><!-- end of about-section -->	
 
 		<!-- start of about-section -->		
@@ -174,47 +182,87 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<hr id="lineStyle2">
 			<div id="content3">
 				<div class="row ">
-					<div class="col-lg-4 col-md-6 col-sm-12">
-						<a href="https://mepsrajput.github.io/WeatherApp/">
-							<img src="img/WeatherApp.jpg" alt="Weather App" class="thumbnail projectStyle"></img>
-						</a>
+					<div class="col-lg-4 col-md-6 col-sm-12 newDiv">
+						<div class="container1">
+							<a href="https://mepsrajput.github.io/WeatherApp/" target="_blank">
+								<img src="img/WeatherApp.jpg" alt="Weather App" class="thumbnail projectStyle"></img>
+								<div class="overlay">
+									<div class="text">
+										<h3>The Weather App</h3>
+										<p><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript, Weather API</p>
+									</div>
+								</div>	
+							</a>
+						</div>							
 					</div>
 					<div class="clearfix visible-xs-block"></div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
-						<a href="https://mepsrajput.github.io/RandomQuoteGenerator/">
+						<a href="https://mepsrajput.github.io/RandomQuoteGenerator/" target="_blank">
+							<div class="container1">
 							<img src="img/RQG.jpg" alt="Random Quote Generator" class="thumbnail projectStyle"></img>
+							<div class="overlay">
+								<div class="text">
+									<h3>Random Quote Generator</h3>
+									<p><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript, AJAX, Quote API</p>
+								</div>
+							</div>
+							</div>
 						</a>
 					</div>
-					<div class="clearfix visible-xs-block"></div>
-					<div class="clearfix visible-md-block"></div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
-						<a href="https://mepsrajput.github.io/TributePage/"><img src="img/TributePage.jpg" 
-							alt="Tribute Page" 
-							class="thumbnail projectStyle"></img>
+						<a href="https://mepsrajput.github.io/TributePage/" target="_blank">
+							<div class="container1">
+							<img src="img/TributePage.jpg" alt="Tribute Page" class="thumbnail projectStyle"></img>
+							<div class="overlay">
+								<div class="text">
+									<h3>Tribute Page</h3>
+									<p><b>Tools:</b> HTML5, CSS3, Bootstrap</p>
+								</div>
+							</div>
+							</div>
 						</a>
 					</div>
-					<div class="clearfix visible-xs-block"></div>
-				 	<div class="clearfix visible-lg-block"></div>
-
+				</div>
+				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<a href="https://mepsrajput.github.io/ImageGallery/"><img src="img/ImageGallery.jpg"
-							alt="Image Gallery" class="thumbnail projectStyle"></img>
+						<a href="https://mepsrajput.github.io/ImageGallery/" target="_blank">
+							<div class="container1">
+							<img src="img/ImageGallery.jpg" alt="Image Gallery" class="thumbnail projectStyle"></img>
+							<div class="overlay">
+								<div class="text">
+									<h3>Image Gallery</h3>
+									<p><b>Tools:</b> HTML5, CSS3, Bootstrap</p>
+								</div>
+							</div>
+							</div>
 						</a>
 					</div>
-					<div class="clearfix visible-xs-block"></div>
-					<div class="clearfix visible-md-block"></div>
 					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<a href="https://mepsrajput.github.io/calculator/"><img src="img/Calculator.jpg" 
-							alt="Calculator" class="thumbnail projectStyle"></img></a>
-					</div>
-					<div class="clearfix visible-xs-block"></div>
-					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<a href="#"><img alt="coming Soon" src="img/soon.jpg" class="thumbnail projectStyle"></img>
+						<a href="https://mepsrajput.github.io/calculator/" target="_blank">
+							<div class="container1">
+							<img src="img/Calculator.jpg" alt="Calculator" class="thumbnail projectStyle"></img>
+							<div class="overlay">
+								<div class="text">
+									<h3>Calculator</h3>
+									<p><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript</p>
+								</div>
+							</div>
+							</div>
 						</a>
 					</div>
-					<div class="clearfix visible-md-block"></div>
-					<div class="clearfix visible-lg-block"></div>
-					<div class="clearfix visible-xs-block"></div>
+					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
+						<a href="#">
+							<div class="container1">
+								<img alt="coming Soon" src="img/soon.jpg" class="thumbnail projectStyle"></img>
+								<div class="overlay">
+									<div class="text">
+										<h3>New Project Coming Soon</h3>
+										<p><b>Tools:</b> ...</p>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
