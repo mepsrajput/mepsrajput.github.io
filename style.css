@@ -90,7 +90,7 @@ div.parallax {
 }
 
 div#intro {
-	width: 75vw; 
+	width: 80vw; 
 	margin: auto;
 	color: #000;
 	padding: 20px 25px;
@@ -115,6 +115,10 @@ span.blueColor {
 }
 div.content #img:hover {
 	box-shadow: 1px 1px 3px gray;
+}
+
+.social {
+	margin-top: 12px;
 }/*end of about-section*/
 
 
@@ -357,9 +361,7 @@ input[type=submit]:hover {
 	padding: 30px 0px 0px;
 }
 
-.social {
-	margin-top: 12px;
-}
+
 .goTop {
 	width: 50px;
 	line-height: 50px;
@@ -480,10 +482,14 @@ span#copy {
 	}
 	div#intro {
 		font-size: 1.2em;
+		width: 95vw; 
 	}
 	#img1 {
 		width: 180px;
 		margin-bottom: 10px; 
+	}
+	.social {
+	margin-top: 5px;
 	}
 
 	.h1Text{
