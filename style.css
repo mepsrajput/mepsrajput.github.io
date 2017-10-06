@@ -20,7 +20,7 @@ a:link, a:hover, a:active, a:visited {
 	text-decoration: none;
 }
 
-#about, #skills, #projects, #contact {
+#about, #skills, #projects, #contact, #expertise{
 	height: 100vh;
 }
 
@@ -29,6 +29,9 @@ a:link, a:hover, a:active, a:visited {
 	background-color: #a5a5a5;
 }
 
+#expertise{
+	background-color:#789;
+}
 #skills, #contact {
 	background-color: #cbcbcb;
 }
@@ -122,9 +125,38 @@ div.content #img:hover {
 }/*end of about-section*/
 
 
+/* ---------  start of expertise-section ------------------------------------------------
+---------------------------------------------------------------------------------- */
+#expertise {
+	font-size: 25px;
+}
+
+div#expertise h1{
+	margin-top: 100px;
+	margin-bottom: 5px;
+}
+hr#lineStyleE {
+	margin-bottom: 80px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	width: 21%;
+	border: 0;
+    height: 2px;
+    margin-top: 0px;
+}
+
+#contentE {
+	color: #ccc;
+}
+
+.expertiseText {
+	display:block;
+	margin-top: 15px;
+}
+
+
 /* ---------  start of skills-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
-div.content2 {
+div#content2 {
 	height:100%;
 }
 
@@ -134,7 +166,7 @@ div.content2 {
 
 div#skills h1{
 	margin-top: 100px;
-	margin-bottom: 5px !important;
+	margin-bottom: 5px;
 }
 
 hr#lineStyle1 {
@@ -143,7 +175,7 @@ hr#lineStyle1 {
 	width: 15%;
 	border: 0;
     height: 2px;
-    margin-top: 0px !important;
+    margin-top: 0px;
 }
 
 i.bootIcon {
@@ -518,6 +550,63 @@ span#copy {
 		padding-top: 300px !important;
 		margin-top: 300px !important;
 	}
+	
+	
+	
+	#expertise {
+		height: 150vh;
+	}
+	#trying1 {
+		border-right: 2px solid red;
+		padding: 0px 5px 0px 0px;
+		margin:0;
+		padding:0;
+		height: 180px;
+	}
+	#trying2 {
+		border-left: 2px solid yellow;
+		padding: 0px 5px 0px 5px;
+		height: 160px;
+		margin-top:55px;
+
+	}
+	#trying3 {
+		border-right: 2px solid blue;
+		padding: 0;
+		height: 160px;
+		margin-top:50px;
+
+	}
+	
+	img#expertiseImg1{
+		width: 50vw;
+		height
+	}
+	img#expertiseImg2{
+		width: 50vw;
+		height: 130px;
+		float:right;
+
+	}
+	img#expertiseImg3{
+		width: 50vw;
+		height: 130px;
+	}
+	hr#lineStyleE {
+		margin-bottom: 0px;
+	}
+	
+	span.expertiseText{
+		font-family:Comfortaa, Tahoma;
+		font-size: 12px;
+		margin-top: 0px;
+		font-weight: bold;
+		margin: 5px 5px 5px 0px;
+		display: inline;
+		line-height: 150px;
+	}
+	
+
 
 	div.nit, div.nits {
 		margin-bottom: 25px;
