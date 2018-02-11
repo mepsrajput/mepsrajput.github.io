@@ -12,13 +12,14 @@ html {
      -khtml-user-select: none; /* Konqueror HTML */
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+
+a { text-decoration: none;}
 
 .readMore {
 	margin: 50px auto;
-	font-size: 20px;
+	font-size: 15px;
 	width: 130px;
 	height: 40px;
 	transform: skew(-20deg);
@@ -32,6 +33,8 @@ span#readMoreText {
 	color: black;
 	margin: 0 auto;
 	line-height: 40px;
+	font-weight: bold;
+	font-family:verdana;
 
 }
 
