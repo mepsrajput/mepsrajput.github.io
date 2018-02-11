@@ -17,10 +17,24 @@ html {
 }
 
 .readMore {
-	margin: 0 auto;
-	color: green;
+	margin: 50px auto;
 	font-size: 20px;
+	width: 130px;
+	height: 40px;
+	transform: skew(-20deg);
+	-ms-transform: skew(-20deg); /* IE 9 */
+    -webkit-transform: skew(-20deg); /* Safari */
+	background: #32cd32;
+	border-radius: 5%;
 }
+
+span#readMoreText {
+	color: black;
+	margin: 0 auto;
+	line-height: 40px;
+
+}
+
 a:link, a:hover, a:active, a:visited {
 	text-decoration: none;
 }
