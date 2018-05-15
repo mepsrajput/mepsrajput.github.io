@@ -20,24 +20,24 @@ $(document).ready(function () {
 	scrollNav();
 	
 	$("#projectDesc1").click(function(){
-        $("#testabc1").fadeToggle();
-		});
+        $("#testabc1").slideToggle("slow");
+	});
 	
 	$("#projectDesc2").click(function(){
-        $(".testabc2").fadeToggle("2000");
+        $(".testabc2").slideToggle("2000");
 	});
 	
 	$("#projectDesc3").click(function(){
-        $(".testabc3").fadeToggle("2000");
+        $(".testabc3").slideToggle("2000");
 	});
 	$("#projectDesc4").click(function(){
-        $(".testabc4").fadeToggle("2000");
+        $(".testabc4").slideToggle("2000");
 	});
 	$("#projectDesc5").click(function(){
-        $(".testabc5").fadeToggle("2000");
+        $(".testabc5").slideToggle("2000");
 	});
 	$("#projectDesc6").click(function(){
-        $(".testabc6").fadeToggle("2000");
+        $(".testabc6").slideToggle("2000");
 	});
 
     $(document).click(function (event) {
