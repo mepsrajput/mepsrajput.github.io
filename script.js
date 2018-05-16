@@ -19,25 +19,26 @@ $(document).ready(function () {
 	}
 	scrollNav();
 	
-	$("#projectDesc1").click(function(){
-        $("#testabc1").slideToggle("slow");
+	$("#projectDesc1").click(function(e){
+		e.preventDefault();
+        $("#testabc1").slideToggle(1000);
 	});
 	
 	$("#projectDesc2").click(function(){
-        $(".testabc2").slideToggle("2000");
+        $("#testabc2").slideToggle(1000);
 	});
 	
 	$("#projectDesc3").click(function(){
-        $(".testabc3").slideToggle("2000");
+        $("#testabc3").slideToggle(1000);
 	});
 	$("#projectDesc4").click(function(){
-        $(".testabc4").slideToggle("2000");
+        $("#testabc4").slideToggle(1000);
 	});
 	$("#projectDesc5").click(function(){
-        $(".testabc5").slideToggle("2000");
+        $("#testabc5").slideToggle(1000);
 	});
 	$("#projectDesc6").click(function(){
-        $(".testabc6").slideToggle("2000");
+        $("#testabc6").slideToggle(1000);
 	});
 
     $(document).click(function (event) {
@@ -47,7 +48,6 @@ $(document).ready(function () {
     if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
         $navbar.collapse('hide');
     }
-	});
-	           
+	});	 
 
 });
