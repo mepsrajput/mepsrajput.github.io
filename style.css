@@ -63,46 +63,45 @@ a:link, a:hover, a:active, a:visited {
 ---------------------------------------------------------------------------------- */
 
 nav .navbar-brand {
-  font-size: 1.7em;
-  margin-left: 30px !important;
-  font-family: "Montserrat", sans-serif !important;	
+	font-size: 1.7em;
+    margin-left: 30px !important;
+    font-family: "Montserrat", sans-serif !important;	
 }
-
-nav.navbar {
-	box-shadow: 0px 2px 5px gray;
-	opacity: 0.8;
-	background-color: black;
-	font-family: "Montserrat", sans-serif;
-	font-size: 0.83em;
-}
-
 nav .navbar-toggle {
   margin: 13px 15px 13px 0;
 }
 
+nav.navbar {
+		background-color: black;
+}
+
 nav a {
-  padding-bottom: 20px !important;
-  padding-top: 20px !important;
-  transition: all 0.3s ease;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.83em;
+	padding-bottom: 20px !important;
+	padding-top: 20px !important;
+	transition: all 0.3s ease;
 }
 nav.navbar.shrink {
-  max-height: 35px !important;
+  min-height: 35px;
 }
 nav.navbar.shrink .navbar-brand {
-  font-size: 1.5em;
+	font-size: 1.4em;
 }
-nav.navbar.shrink{
-  font-size: 0.7em !important;
+nav.navbar.shrink a {
+	font-size: 0.73em;
+	padding-bottom: 10px !important;
+	padding-top: 10px !important;
 }
 nav.navbar.shrink .navbar-toggle {
-  margin: 15px;
+  margin: 8px 15px 8px 0;
   padding: 4px 5px;
-} 
+}
 
 .navGlyphicon {
 	color: #ccccff
 }
-/*end of navbar-section*/
+ *//*end of navbar-section*/
 
 /* ---------  start of about-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
