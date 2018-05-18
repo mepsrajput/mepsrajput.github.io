@@ -1,26 +1,40 @@
 $(document).ready(function () {
-
+	
+	//initialize wow.js
+	new WOW().init();
+	
+	//navbar smooth scroll
+	function scrollNav() {
+		$('.nav a').click(function(){  
+			$('html, body').stop().animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+			}, 800);
+		return false;
+		});
+		$('.scrollTop a').scrollTop();
+	}
+	scrollNav();
+	
+	//collapse navbar on click anywhere on body while it's opened 
+    $(document).click(function (event) {
+		var clickover = $(event.target);
+		var navbar = $(".navbar-collapse");               
+		var opened = navbar.hasClass("in");
+		if (opened === true && !clickover.hasClass("navbar-toggle")) {      
+			navbar.collapse('hide');
+		}
+	});	
+	
+	//scroll to top
 	$('.goTop').click(function () {
 			$("html, body").animate({
 				scrollTop: 0
 			}, 1000);
 			return false;
-		});
-
-	function scrollNav() {
-		$('.nav a').click(function(){  
-			//Animate
-			$('html, body').stop().animate({
-			scrollTop: $( $(this).attr('href') ).offset().top
-			}, 800);
-		return false;
 	});
-	$('.scrollTop a').scrollTop();
-	}
-	scrollNav();
-	
+		
+	//projects overlay animations
 	$("#projectDesc1").click(function(e){
-		e.preventDefault();
         $("#testabc1").slideToggle(1000);
 	});
 	
@@ -40,14 +54,19 @@ $(document).ready(function () {
 	$("#projectDesc6").click(function(){
         $("#testabc6").slideToggle(1000);
 	});
-
-    $(document).click(function (event) {
-    var clickover = $(event.target);
-    var $navbar = $(".navbar-collapse");               
-    var _opened = $navbar.hasClass("in");
-    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
-        $navbar.collapse('hide');
-    }
-	});	 
+	
+	//filling heart animations
+	function fillHeart() {
+		let heart = document.getElementById('heart');
+		heart.innerHTML = "&#xf08a;";
+		
+		setTimeout(function(){
+			heart.innerHTML = "&#xf004;";
+		}, 1000);
+	}
+	
+	fillHeart();
+	
+	setInterval(fillHeart, 2000);	
 
 });
