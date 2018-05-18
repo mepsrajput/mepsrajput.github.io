@@ -3,6 +3,14 @@ $(document).ready(function () {
 	//initialize wow.js
 	new WOW().init();
 	
+	$(window).scroll(function() {
+	  if ($(document).scrollTop() > 50) {
+		$('nav').addClass('shrink');
+	  } else {
+		$('nav').removeClass('shrink');
+	  }
+	});	
+	
 	//navbar smooth scroll
 	function scrollNav() {
 		$('.nav a').click(function(){  

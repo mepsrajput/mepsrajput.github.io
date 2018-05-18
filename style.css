@@ -59,20 +59,50 @@ a:link, a:hover, a:active, a:visited {
 	margin: 0px 30px;
 }
 
+/* ---------  start of navbar ------------------------------------------------
+---------------------------------------------------------------------------------- */
+
+nav .navbar-brand {
+  font-size: 1.7em;
+  margin-left: 30px !important;
+  font-family: "Montserrat", sans-serif !important;	
+}
+
 nav.navbar {
 	box-shadow: 0px 2px 5px gray;
+	opacity: 0.8;
+	background-color: black;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.83em;
 }
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+nav a {
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  transition: all 0.3s ease;
+}
+nav.navbar.shrink {
+  max-height: 35px !important;
+}
+nav.navbar.shrink .navbar-brand {
+  font-size: 1.5em;
+}
+nav.navbar.shrink{
+  font-size: 0.7em !important;
+}
+nav.navbar.shrink .navbar-toggle {
+  margin: 15px;
+  padding: 4px 5px;
+} 
 
 .navGlyphicon {
 	color: #ccccff
 }
-
-
-/* ---------  start of navbar ------------------------------------------------
----------------------------------------------------------------------------------- */
-#navbar-brand {
-	margin-left: 30px;
-}/*end of navbar-section*/
+/*end of navbar-section*/
 
 /* ---------  start of about-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
@@ -612,9 +642,12 @@ span#copy {
 	color: #fff;
 }
 
-.fa-heart-o {
-	color: #FF69B4;
-}/*end of footer-section*/
+	
+#heart {
+	color: red;
+	font-size: 1.2em;
+}
+/*end of footer-section*/
 
 
 
@@ -775,11 +808,6 @@ span#copy {
 		padding: 4px 1px;
 		width: 33%;
 	}
-	
-	#heart {
-		color: red;
-	}
-		
 
 }
 
