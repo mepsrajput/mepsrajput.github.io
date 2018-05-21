@@ -15,6 +15,23 @@ html {
             user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
+/* --- Scrollbar ---- */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(210, 210, 210, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
 a { text-decoration: none;}
 
 .readMore {
@@ -594,20 +611,20 @@ input[type=submit]:hover {
 
 /* ---------  start of footer-section ------------------------------------------------
 ---------------------------------------------------------------------------------- */
-.footer {
+#footer {
 	background-color: #222;
-	height: 200px;
+	height: 80px;
 	color: #eee;
-	padding: 30px 0px 0px;
 }
 
-
 .goTop {
-	width: 50px;
-	line-height: 50px;
-	margin: 0 auto;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	line-height: 30px;
+	width: 30px;
   	font-size: 21px;
-  	background-color: #777;
+  	background-color: #eee;
   	border:1px solid #000;
   	border-radius: 50%;
   	opacity: 0.8;
@@ -635,7 +652,7 @@ input[type=submit]:hover {
 
 div.copyright {
 	font-family:Comfortaa, Tahoma;
-	margin: 50px auto 30px;
+	line-height: 80px;
 }
 
 span#copy {

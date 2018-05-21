@@ -33,6 +33,15 @@ $(document).ready(function () {
 		}
 	});	
 	
+	// ===== Scroll to Top ==== 
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+			$('.goTop').fadeIn(200);    // Fade in the arrow
+		} else {
+			$('.goTop').fadeOut(200);   // Else fade out the arrow
+		}
+	});
+	
 	//scroll to top
 	$('.goTop').click(function () {
 			$("html, body").animate({
