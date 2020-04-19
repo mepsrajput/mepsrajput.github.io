@@ -1,403 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-	<!-- Google Tag Manager -->
-	<script>
-		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-NVZNVZP');
-	</script>
-	<!-- End Google Tag Manager -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Pradeep Singh is a Web developer, Blogger and Writer.
+  He creates optimal cost, SEO optimized, responsive websites and web pages.">
+  <meta name="keywords" content="Pradeep Singh, Pradeep Singh Portfolio,
+  Pradeep's Portfolio, Pradeep Web Developer, Front-end Web Developer,
+  website designer, SEO, SEM, SMM">
+  <title>Pradeep Singh</title>
+  <link rel="icon" href="/img/ps6.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 610px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 611px) and (max-width: 1200px)" href="css/tablet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    <title>Pradeep Singh Portfolio</title>
+<body>
 
-		<meta charset="utf-8">
+  <!-- Side Nav -->
+  <nav id="navbar">
+    <div id="open-slide">
+      <span onclick="opensidemenu()">
+        <svg width="30" height="30">
+          <path d="M0,5 20,5" stroke="#999" stroke-width="4"/>
+          <path d="M0,12 20,12" stroke="#999" stroke-width="4"/>
+          <path d="M0,19 20,19" stroke="#999" stroke-width="4"/>
+        </svg>
+      </span>
+    </div>
 
-		<meta name="description" content="Pradeep Singh is a Web developer, Blogger and Writer. 
-			He creates optimal cost, SEO optimized, responsive websites and web pages.">
+    <div id="side-menu">
+      <div id="btn-close" onclick="closesidemenu()"><i class="fa fa-times"></i></div>
 
-		<meta name="keywords" content="Pradeep Singh, Pradeep Singh Portfolio,
-			Pradeep's Portfolio, Pradeep Web Developer, Front-end Web Developer,
-			website designer, SEO, SEM, SMM">
+      <a href="#"><img id="logo" src="img/ps2.png" alt="Udacity Logo"></a>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-		<meta name="author" content="Pradeep Singh">
-		<meta name="robots" content="index, follow">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<meta property="og:title" content="Pradeep Singh">
-		<meta property="og:description" content="Pradeep Singh is a Web developer, Blogger and Writer. 
-			He creates optimal cost, SEO optimized, responsive websites and web pages.">
-		<meta property="og:image" content="img/image1.jpg">
-		
-		<!-- external css -->
-		<link href="style.css" rel="stylesheet" media="all">
-		
-		<!--  favicon -->
-		<link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">		
+  <!-- Main -->
+  <main id="main">
 
-		<!-- font CDNs -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons%7CLobster%7CComfortaa">
+    <!-- About Section -->
+    <section id="about">
+      <div id="about-details">
+        <div id="profile">
+          <img src="img/ps 1.jpg" alt="Pradeep Singh">
+        </div>
+        <div id="intro">
+          <h1>Pradeep Singh</h1>
+          <div id="social-links">
+            <a href="https://www.facebook.com/psrajputofficial/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/mepsrajput" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/+PradeepSinghRajputOfficial/" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.instagram.com/psrofficial/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </div>
+          <a href="#contact" id="hire-button">Hire Me</a>
+        </div>
+      </div>
+      <div id="coding-image"></div>
+    </section>
 
-		<!-- external libraries CDN -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" async></script>
-		
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Expertise Section -->
+    <section id="expertise">
+      <div class="header">
+        <h2>Expertise</h2>
+      </div>
+      <div class="container">
+        <div class="skill">
+          <div id="html5">
+            <p>HTML 5</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div id="css3">
+            <p>CSS 3</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div id="javascript">
+            <p>JavaScript</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div id="react">
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107436040-1" ></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments)};
-			gtag('js', new Date());
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="header">
+        <h2>Featured Work</h2>
+      </div>
+      <div class="container">
+        <div class="project-container" id="tribute-page">
+          <img srcset="img/tribute-page-500w.png 600w, img/tribute-page-1300w.png 1000w" src="img/tribute-page-1300w.png" alt="Tribute Page Project" class="project-image">
+          <div class="middle-text">
+            <a href="https://mepsrajput.github.io/TributePage/" target="_blank" class="link-text">View</a>
+          </div>
+        </div>
+        <div class="project-container" id="tribute2udacity">
+          <img srcset="img/tribute2udacity-500w.png 600w, img/tribute2udacity-1300w.png 1000w" src="img/tribute2udacity-1300w.png" alt="Tribute2Udacity Project" class="project-image">
+          <div class="middle-text">
+            <a href="https://tribute2udacity.herokuapp.com" target="_blank" class="link-text">View</a>
+          </div>
+        </div>
+        <div class="project-container" id="image-gallery">
+          <img srcset="img/image-gallery-500w.png 600w, img/image-gallery-1300w.png 1000w" src="img/image-gallery-1300w.png" alt="ImageGallery Project" class="project-image">
+          <div class="middle-text">
+            <a href="https://mepsrajput.github.io/ImageGallery/" target="_blank" class="link-text">View</a>
+          </div>
+        </div>
+        <div class="project-container" id="jsapps">
+          <img srcset="img/jsapps-500w.png 600w, img/jsapps-1300w.png 1000w" src="img/jsapps-1300w.png" alt="JSApps Project" class="project-image">
+          <div class="middle-text">
+            <a href="https://mepsrajput.github.io/JSApps/" target="_blank" class="link-text">View</a>
+          </div>
+        </div>
+        <div class="project-container" id="pixel-art">
+          <img srcset="img/pixel-art-500w.png 600w, img/pixel-art-1300w.png 1000w" src="img/pixel-art-1300w.png" alt="PixelArt Project" class="project-image">
+          <div class="middle-text">
+            <a href="https://codepen.io/mepsrajput/full/yjVrPN/" target="_blank" class="link-text">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			gtag('config', 'UA-107436040-1');
-		</script>
-		<script src="script.js" async></script>
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <div class="header">
+        <h2>Certifications</h2>
+      </div>
+      <div class="container">
+        <div class="thumbnail">
+          <img class="certificate" src="img/html-certificate.jpg" alt="HTML certificate">
+        </div>
+        <div class="thumbnail">
+          <img class="certificate" src="img/css-certificate.jpg" alt="CSS certificate">
+        </div>
+        <div class="thumbnail">
+          <img class="certificate" src="img/online-marketing.png" alt="Online marketing certificate">
+        </div>
+        <div class="thumbnail">
+          <img class="certificate" src="img/google-analytics.png" alt="Google analytics certificate">
+        </div>
+      </div>
+    </section>
 
-    </head>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="header">
+        <h3>Get In Touch</h3>
+      </div>
+      <div class="container" id="contact-container">
+        <form onsubmit="return validateForm()" action="https://formspree.io/viveksingh12126@gmail.com" method="POST" id="form">
+          <input type="text" name="name" id="text-input" placeholder="Full Name" required>
+          <input type="email" name="email" id="email-input" placeholder="Email" required>
+          <textarea name="message" rows="1" id="textarea" placeholder="Enter Your Message" required></textarea>
+          <input type="submit" value="Submit" id="submit-btn">
+        </form>
+        <div id="or-container">
+          <div id="or-symbol">
+            OR
+          </div>
+        </div>
+        <div id="contact-alternative">
+          <div id="whatsapp"><i class="fa fa-whatsapp"></i>7358305612</div>
+          <div id="email"><i class="fa fa-envelope"></i>viveksingh12126@gmail.com</div>
+        </div>
+      </div>
 
-    <body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZNVZP"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+    </section>
+  </main>
 
-		<!-- Navbar Start -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcol">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+  <!-- Footer Section -->
+  <footer id="footer">
+    <div id="copyright">
+      <p><i class="fa fa-copyright"></i>2020 | All rights reversed.</p>
+    </div>
+  </footer>
 
-						<a href="https://mepsrajput.github.io/" class="navbar-brand"
-							id="navbar-brand">Pradeep Singh
-						</a>
-				</div>
+  <script src="js/script.js"></script>
 
-				<div id="navbarcol" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="active" href="#about" style="color: white">
-								ABOUT&nbsp;(<span class="glyphicon glyphicon-user navGlyphicon"></span><span>)</span></a>
-						</li>
-						<li><a href="#expertise" style="color: white">EXPERTISE</a></li>
-						<li><a href="#skills" style="color: white">SKILLS</a></li>
-						<li><a href="#projects" style="color: white">PROJECTS</a></li>
-						<li><a href="#contact" style="color: white">CONTACT&nbsp;(<span
-							class="glyphicon glyphicon-phone-alt navGlyphicon">
-							</span><span>)</span></a>
-						</li>
-						<li><a href="PSResume.pdf" target="_blank" style="color: white">RESUME
-							(<span id="navGlyphicon" class="glyphicon glyphicon-download-alt"></span><span>)</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-		    </div><!-- container end -->
-		</nav><!-- Navbar End -->
-
-		<!-- start of about-section -->
-		<div class="aboutContainer parallax noselect" id="about">
-			<div class="aboutOverlay"></div>
-			<div class="container-fluid insideContainer">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div id="content">
-							<img id="img1" class="animated zoomIn img-responsive img-circle center-block" alt="Pradeep Singh"
-								src="img/image1.jpg">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div id="section-1" class="col-md-12 col-sm-12 text-center">
-						<div id="intro">My name is <span class="blueColor">Pradeep Singh</span>. I am a Front-End
-							<span class="blueColor">Web Developer</span> with a <span id="blueColor">B.E</span>.
-							Degree in <span class="blueColor">Computer Science</span>. Apart from this I'm a
-							<span class="blueColor"> <a href="http://www.eduonline24.in/">Blogger</a></span> as well.
-							Web Development has been my passion from these many years.
-						</div>
-					</div>
-				</div>		
-		
-				<div class="row social text-center" id="socialRow">
-					<div id="section-2" class="animated bounce col-md-12 col-xs-12">
-						<a href="https://www.facebook.com/psrajputofficial/" target="_blank" class="fa fa-facebook iconf"></a>
-						<a href="https://twitter.com/mepsrajput" target="_blank" class="fa fa-twitter iconf"></a>
-						<a href="https://plus.google.com/+PradeepSinghRajputOfficial/" target="_blank"
-							class="fa fa-google-plus iconf">
-						</a>
-						<a href="https://www.linkedin.com/in/mepsrajput/" target="_blank" class="fa fa-linkedin iconf"></a>
-						<a href="https://www.instagram.com/psrofficial/" target="_blank" class="fa fa-instagram iconf"></a>							
-					</div>
-				</div>
-			</div>
-		</div><!-- end of about-section -->
-
-		<!-- start of Expertise-section -->
-		<div class="container-fluid text-center noselect" id="expertise">
-			<h1 class="h1Text">Expertise</h1>
-			<hr id="lineStyleE">
-			<div id="contentE">
-				<div class="row">
-					<div class="col-sm-4 col-xs-12">
-						<div id="trying1" class="wow fadeIn">
-							<img src="img/responsive2.svg" height="220" alt="Web Devlopment" id="expertiseImg1">
-							<span class="expertiseText">Web Development</span>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-xs-12">
-						<div id="trying2" class="">
-							<img src="img/statistics2.svg" alt="SEO" height="220" id="expertiseImg2">
-							<span class="expertiseText">SEO</span>
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-xs-12">
-						<div id="trying3" class="wow fadeIn">
-							<img src="img/monitor.svg" alt="Digital Marketing" height="220" id="expertiseImg3">
-							<span class="expertiseText">Digital Marketing</span>
-						</div>
-					</div>
-
-					<div class="col-xs-12">
-						<div class="readMore">
-							<a href="https://mepsrajput.github.io/skills.html">View More</a> >>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- End of Expertise-section -->
-
-		<!-- start of skills-section -->
-		<div class="skillContainer text-center noselect parallax3" id="skills">
-			<div class="aboutOverlay2"></div>
-			<div class="container-fluid">
-				<div class="row ">
-					<div class="col-md-12">
-						<h1 id="skillheading">Skills</h1>
-						<hr id="lineStyle1">
-					</div>
-				</div>
-			</div>
-
-			<div class="container-fluid insideContainer2">
-
-				<div id="content2">
-					<div class="row">
-						<div class="col-md-3 col-xs-6 nit wow zoomIn" id="htmlContainer">
-							<i class="bootIcon fa fa-html5" aria-hidden="true"></i>
-							<p id="html">HTML5</p>
-						</div>
-						<div class="col-md-3 col-xs-6 nits" id="cssContainer">
-							<i class="bootIcon fa fa-css3" aria-hidden="true"></i>
-							<p id="css">CSS3</p>
-						</div>
-						<div class="col-md-3 col-xs-6 its" id="bsContainer">
-							<i class="bootIcon2 icon-bootstrap"></i>
-							<p id="b">BOOTSTRAP</p>
-						</div>
-						<div class="col-md-3 col-xs-6 it wow zoomIn" id="jsContainer">
-							<i class="bootIcon3 icon-javascript-alt"></i>
-							<p id="js">JAVASCRIPT</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div><!-- end of skills-section -->
-
-		<!-- start of projects-section -->
-		<div class="container-fluid text-center noselect" id="projects">
-			<h1 class="h1Text">Projects</h1>
-			<hr id="lineStyle2">
-			<div id="content3">
-				<div class="row ">
-					<div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="container1 wow fadeIn">
-							<a href="https://mepsrajput.github.io/WeatherApp/" target="_blank">
-								<img src="img/WeatherApp.jpg" alt="Weather App" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc1">
-									<div class="text">
-										<h3>The Weather App</h3>
-										<p class="tools"><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript, Weather API</p>
-									</div>
-								</div>
-							</a>
-							<div class="container2 text-right">
-								<span id="projectDesc1"><i class="material-icons">info_outline</i></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="container1">
-							<a href="https://mepsrajput.github.io/RandomQuoteGenerator/" target="_blank">
-								<img src="img/RQG.jpg" alt="Random Quote Generator" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc2">
-									<div class="text">
-									<h3>Random Quote Generator</h3>
-									<p class="tools"><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript, AJAX, Quote API</p>
-									</div>
-								</div>
-							</a>
-							<div class="container2 text-right">
-								<span id="projectDesc2"><i class="material-icons">info_outline</i></span>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12">
-						<div class="container1 wow fadeIn">
-							<a href="https://mepsrajput.github.io/TributePage/" target="_blank">
-								<img src="img/TributePage.jpg" alt="Tribute Page" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc3">
-									<div class="text">
-										<h3>Tribute Page</h3>
-										<p class="tools"><b>Tools:</b> HTML5, CSS3, Bootstrap</p>
-									</div>
-								</div>
-							</a>
-								<div class="container2 text-right">
-									<span id="projectDesc3"><i class="material-icons">info_outline</i></span>
-								</div>
-						</div>
-					</div>
-				</div>
-				<div class="row projectsrow2">
-					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<div class="container1 wow fadeIn">
-							<a href="https://mepsrajput.github.io/ImageGallery/" target="_blank">
-								<img src="img/ImageGallery.jpg" alt="Image Gallery" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc4">
-									<div class="text">
-										<h3>Image Gallery</h3>
-										<p class="tools"><b>Tools:</b> HTML5, CSS3, Bootstrap</p>
-									</div>
-								</div>
-							</a>
-							<div class="container2 text-right">
-								<span id="projectDesc4"><i class="material-icons">info_outline</i></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<div class="container1">
-							<a href="https://mepsrajput.github.io/calculator/" target="_blank">
-								<img src="img/Calculator.jpg" alt="Calculator" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc5">
-									<div class="text">
-										<h3>Calculator</h3>
-										<p class="tools"><b>Tools:</b> HTML5, CSS3, Bootstrap, JavaScript</p>
-									</div>
-								</div>
-							</a>
-								<div class="container2 text-right">
-									<span id="projectDesc5"><i class="material-icons">info_outline</i></span>
-								</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 hideElement">
-						<div class="container1 wow fadeIn">
-							<a href="https://mepsrajput.github.io/PixelArtMaker/">
-								<img alt="Pixel Art Maker" src="img/pixel-art2.png" class="thumbnail projectStyle">
-								<div class="overlay" id="testabc6">
-									<div class="text">
-										<h3>Pixel Art Maker</h3>
-										<p class="tools"><b>Tools:</b> <br>HTML5, CSS3, Bootstrap, JavaScript, Animate.css, particlesJS</p>
-									</div>
-								</div>
-							</a>
-							<div class="container2 text-right">
-								<span id="projectDesc6"><i class="material-icons">info_outline</i></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12">
-						<div class="readMore">
-							<span id="readMoreText">
-								<a href="./projects.html">View More</a> >>
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end of projects-section -->
-
-		<!-- start of contact-section -->
-		<div class="skillContainer text-center noselect parallax2" id="contact">
-			<div class="aboutOverlay4"></div>
-				<div class="container-fluid">
-					<div class="row ">
-						<div class="col-md-12">
-							<h1 id="contactheading">Contact</h1>
-							<hr id="lineStyle3">
-						</div>
-					</div>
-				</div>
-				<div id="formStyle">
-					<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12 text-left">
-							<form class="wow fadeIn" onsubmit="return validateForm()"
-								action="https://formspree.io/viveksingh12126@gmail.com"
-								method="POST" id="formAnimate">
-								<label for="fname">Full Name</label>
-								<input aria-required="true" type="text" id="fname" name="fullname"
-									placeholder="Your name ..." pattern="^[a-zA-Z ]+$" required="required" size="20" spellcheck="false">
-								<label for="email">Email ID</label>
-								<input aria-required="true" type="email" id="email" name="email"
-									placeholder="example@abc.com"
-									pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required="required" size="30" spellcheck="false" >
-								<label for="country">Country</label>
-								<select id="country" name="country">
-									<option value="" disabled>Select</option>
-									<option value="australia">Australia</option>
-									<option value="canada">Canada</option>
-									<option value="USA">USA</option>
-									<option value="India">India</option>
-									<option value="Other">Other</option>
-								</select>
-								<label for="message" id="messageTop">Message</label>
-								<textarea id="message" name="message"
-									placeholder="Your message ..." minlength="15" maxlength="300" required="required"></textarea>
-								<input id="designSubmit" type="submit" value="Submit" name = "submit">
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> <!-- end of contact-section -->
-
-		<footer id="footer">
-			<div class="container-fluid text-center noselect">
-				<div class="row">
-					<div class="col-lg-12 col-xs-12">
-						<div class="copyright">
-							Portfolio created with <span id="heart" class="fa"></span> by me <span id="copy">&copy;2018</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="text-center goTop" title="Move to Top">
-				<a onclick="scrollToTop(1000)">
-					<i class="fa fa-angle-double-up"></i>
-				</a>
-			</div>
-		</footer>		
-			
-    </body>
+</body>
 
 </html>
